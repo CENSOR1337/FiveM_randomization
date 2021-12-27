@@ -5,7 +5,7 @@ end
 -- Roll a chance 
 -- @param chance The chance to roll
 -- @return True if the chance was rolled
-function RollChanceByPercent(chance)
+function RollPercentage(chance)
     return RandomFloat(100) <= chance
 end
 

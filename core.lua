@@ -4,7 +4,7 @@ Config.Dict = Config.Dict or {}
 local ResultDict = {}
 local ResultDictLength = {}
 
-local function GetRandomItemInDict(dictName)
+local function RandomItemInDict(dictName)
     local targetDict = ResultDict[dictName]
     if (targetDict) then
         local randomValue = RandomFloat(ResultDictLength[dictName])
@@ -43,11 +43,11 @@ Citizen.CreateThread(function()
 
     AddEventHandler(("%s:GetRandomDict"):format(GetCurrentResourceName()), function(dictName, cb)
         if (cb) then
-            cb(GetRandomItemInDict(dictName))
+            cb(RandomItemInDict(dictName))
         end
     end)
 
-    exports("GetRandomItemInDict", GetRandomItemInDict);
-    exports("RollChanceByPercent", RollChanceByPercent)
+    exports("RandomItemInDict", RandomItemInDict);
+    exports("RollPercentage", RollPercentage)
 end)
 

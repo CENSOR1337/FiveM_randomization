@@ -5,7 +5,8 @@ Basic server information's for esx framework
 ## Examples
 
 ```lua
-local randomItem = exports.cfx_randomization:GetOnlinePlayers()
+local randomItem = exports.cfx_randomization:GetRandomItemInDict().item_name
+local randomItems = exports.cfx_randomization:GetRandomItemInDict().items
 ```
 
 ### Exports

@@ -1,6 +1,6 @@
-# cfx_randomization
+# cfx_randomization (QOL)
 
-Basic server information's for esx framework
+Easily random an items from dictionary.
 
 ## Examples
 

@@ -1,6 +1,6 @@
 # cfx_randomization (QOL)
 
-Easily random an items from dictionary.
+Easily random items from the dictionary.
 
 ## Examples
 

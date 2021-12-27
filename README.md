@@ -13,5 +13,5 @@ local randomItems = exports.cfx_randomization:GetRandomItemInDict().items
 
 | Export                | Description                                             | Parameter(s) | Return |
 | --------------------- | ------------------------------------------------------- | ------------ | ------ |
-| `GetRandomItemInDict` | Pick random element from target dictionary              |              | Table  |
+| `GetRandomItemInDict` | Pick random element from target dictionary              |              | table  |
 | `RollChanceByPercent` | Roll chance by percent (Can be use with decimal number) | number       | bool   |

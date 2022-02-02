@@ -10,7 +10,3 @@ server_script {
     "core.lua",
     "configs/*.lua"
 }
-
-server_exports {
-    "GetRandomItem"
-}

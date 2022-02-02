@@ -1,12 +1,12 @@
-# cfx_randomization (QOL)
+# censor_randomization (QOL)
 
 Easily random items from the dictionary.
 
 ## Examples
 
 ```lua
-local randomItem = exports.cfx_randomization:RandomItemInDict("random_dict_test").item_name
-local randomItems = exports.cfx_randomization:RandomItemInDict("random_dict_test").items
+local randomItem = exports.censor_randomization:RandomItemInDict("random_dict_test").item_name
+local randomItems = exports.censor_randomization:RandomItemInDict("random_dict_test").items
 ```
 
 ### Exports
